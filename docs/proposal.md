@@ -37,9 +37,13 @@
 >>  ######  4-2 [업무분담](#업무분담)
 >>  ######  4-3 [주차 별 개발 계획](#주차-별-개발-계획)
 
+![img](/img/img1.PNG)
+
 #### 서비스 개요
 
  - **VRR이란?**
+
+ ![img](/img/vrr.PNG)
 </br>
     VR과 Kinect 모션인식을 통한 비트게임과 Auto Beat Note Mapping 서비스, 공유 플랫폼을 웹으로 제공한다
 </br>
@@ -81,8 +85,8 @@
 </br>
 
   -  **구성도**
-  
-![img](/img/img1.PNG)
+
+![img](/img/architecture.PNG)
 </br>
 </br>
 
@@ -92,17 +96,61 @@
 #### 시장 동향
 </br>
 
+![img](/img/marketTrends2.PNG)
+```
+| [시장동향 자료 1] TrendForce  
+```
+```
+| 주 : 2020년 시장전망을 기준으로 작성
+| [시장동향 자료 2] Digi-capital, NH투자증권 WM리서치부
+```
+
+![img](/img/marketTrends3.PNG)
+```
+| [시장동향 자료 3] 인사이터스 (VR 기술 응용 산업)  
+```
+![img](/img/marketTrends4.PNG)
+```
+| [시장동향 자료 4] NH투자증권 WM리서치부
+```
+![img](/img/marketTrends5.PNG)
+```
+| [시장동향 자료 5] 인사이터스, VRR 가공 (VR 선도 기업 현황)
+```
+![img](/img/marketTrends.PNG)
+```
+| [시장동향 자료 6] 정보통신정책 연구원, VRR 가공 (VR 생태계 현황)
+```
+</br>
+
 #### 사업 구조
+</br>
+
+![img](/img/businessModel.PNG)
 </br>
 
 #### 수익
 </br>
 
+![img](/img/profit.PNG)
+</br>
+
 #### 향후 추진 계획
+</br>
+
+![img](/img/plan.PNG)
+![img](/img/plan2.PNG)
+###<p align="center">강화학습</p>
+![img](/img/plan3.PNG)
 </br>
 
 #### 업무분담
 </br>
 
+![img](/img/role.PNG)
+</br>
+
 #### 주차 별 개발 계획
 </br>
+
+![img](/img/devplan.PNG)
