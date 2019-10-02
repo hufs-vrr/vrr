@@ -97,28 +97,28 @@
 </br>
 
 ![img](/img/marketTrends2.PNG)
-```
+```bash
 | [시장동향 자료 1] TrendForce  
 ```
-```
+```bash
 | 주 : 2020년 시장전망을 기준으로 작성
 | [시장동향 자료 2] Digi-capital, NH투자증권 WM리서치부
 ```
 
 ![img](/img/marketTrends3.PNG)
-```
+```bash
 | [시장동향 자료 3] 인사이터스 (VR 기술 응용 산업)  
 ```
 ![img](/img/marketTrends4.PNG)
-```
+```bash
 | [시장동향 자료 4] NH투자증권 WM리서치부
 ```
 ![img](/img/marketTrends5.PNG)
-```
+```bash
 | [시장동향 자료 5] 인사이터스, VRR 가공 (VR 선도 기업 현황)
 ```
 ![img](/img/marketTrends.PNG)
-```
+```bash
 | [시장동향 자료 6] 정보통신정책 연구원, VRR 가공 (VR 생태계 현황)
 ```
 </br>
@@ -140,7 +140,8 @@
 
 ![img](/img/plan.PNG)
 ![img](/img/plan2.PNG)
-###<p align="center">강화학습</p>
+
+### <p align="center">강화학습</p>
 ![img](/img/plan3.PNG)
 </br>
 
