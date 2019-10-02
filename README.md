@@ -7,8 +7,10 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-Server-red?logo=Ubuntu)
 ### VR Rhythm Game Beat Maker Using Deep Learning
 ***
-**¹Ú¿µÁØ ¹®¸í±â ±è¼¼Áø ÀÌÈ£Âù Á¶µ¿Ã¶**    
-> Á¤º¸Åë½Å±âÃÊÁ¾ÇÕ¼³°è Team Project    
+**ë°•ì˜ì¤€ ë¬¸ëª…ê¸° ê¹€ì„¸ì§„ ì´í˜¸ì°¬ ì¡°ë™ì² **    
+> ì •ë³´í†µì‹ ê¸°ì´ˆì¢…í•©ì„¤ê³„ Team Project    
 
 
 ![img](/img/img1.PNG)
+
+[ì‚¬ì—… ê³„íšì„œ](https://github.com/hufs-vrr/vrr/blob/master/docs/proposal.md)
