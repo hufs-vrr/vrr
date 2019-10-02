@@ -12,5 +12,3 @@
 
 
 ![img](/img/img1.PNG)
-
-[사업 계획서](https://github.com/hufs-vrr/vrr/blob/master/docs/proposal.md)
