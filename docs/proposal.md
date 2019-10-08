@@ -91,7 +91,41 @@
 </br>
 
 #### 기술 소개
+##### VR
+* Virtual Reality의 약자로 '가상현실'이라는 뜻
+* 만들어 놓은 가상의 세계에서 사람이 실제와 같은 체험을 할 수 있도록 하는 기술
+* 높은 몰입감으로 게임과 같은 엔터테인먼트 분야가 가장 발전해 있다.
+>VR은 사용자의 시야에 꽉 찬 display를 제공해 더욱 높은 현장감과 몰입감을 줄 수 있다
+
 </br>
+
+##### Kinect
+
+* RGB센서와 IR센서를 이용한 3차원 
+* 인식 인체의 주요 골격 위치 데이터 제공
+* 내장 마이크로 음성 인식
+> Kinect는 인체의 25개의 주요 골격 위치를 인식하여, 인식된 골격 위치 데이터를 제공 해주기 때문에 사람의 전체적인 행동 및 움직임을 알 수 있다.     
+_**Gesture recognition**_ : 사람 몸의 움직임을 인식해 기계와 상호작용
+
+</br>
+
+##### VRR : Kinect & VR 기술 결합
+![img](/img/unity+kinect.gif)
+![img](/img/technology03.PNG)
+> 리듬게임을 더욱 재미있게 Play 하기위해 주기적으로 벽을 생성해 Kinect를 통한 Gesture recognition 기능으로 벽을 피하는 게임적 요소를 추가하였다.
+
+</br>
+
+##### Deep learning
+![img](/img/technology04.PNG)
+</br>
+
+* 지도학습은 정답이 주어진 상태에서 학습하는 알고리즘을 의미
+* 입력 값과 정답을 포함한 Training Data를 이용하여 학습
+* 그 학습된 결과를 바탕으로 미지의 데이터에 대해 미래 값을 예측하는 방법
+> VRR은 Note를 생성하는 과정에 필요한 Data를 전처리한 후 Model이 학습하여 새로운 Beat Note를 자동으로 제작할 수 있다.
+
+***
 
 #### 시장 동향
 </br>
@@ -141,8 +175,6 @@
 ![img](/img/plan.PNG)
 ![img](/img/plan2.PNG)
 
-### <p align="center">강화학습</p>
-![img](/img/plan3.PNG)
 </br>
 
 #### 업무분담
