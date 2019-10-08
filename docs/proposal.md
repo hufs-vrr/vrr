@@ -1,4 +1,4 @@
-# <p align="center">ì‚¬ì—…ê³„íšì„œ</p>
+# <p align="center">»ç¾÷°èÈ¹¼­</p>
 ![python](https://img.shields.io/badge/Python-numpy-blue?logo=Python)
 ![Unity](https://img.shields.io/badge/Oculus-Unity-yellow?logo=Unity)
 ![React](https://img.shields.io/badge/React-Frontend-fb5d65?logo=React)
@@ -10,148 +10,189 @@
 
 #### <p align="center">Ver. 1.0</p>
 #### <p align="center">2019.10.01</p>    
-#### <p align="center">í•œêµ­ì™¸êµ­ì–´ëŒ€í•™êµ</p>
-#### <p align="center">ì •ë³´í†µì‹ ê³µí•™ê³¼</p>
+#### <p align="center">ÇÑ±¹¿Ü±¹¾î´ëÇÐ±³</p>
+#### <p align="center">Á¤º¸Åë½Å°øÇÐ°ú</p>
 #### <p align="center">VRR Team</p>
 
-**<p align="center">ë°•ì˜ì¤€ ë¬¸ëª…ê¸° ê¹€ì„¸ì§„ ì´í˜¸ì°¬ ì¡°ë™ì² </p>**     
+**<p align="center">¹Ú¿µÁØ ¹®¸í±â ±è¼¼Áø ÀÌÈ£Âù Á¶µ¿Ã¶</p>**     
 
 ***
-#### <p align="center"><u>ë¨¸ë¦¬ë§</u></p>
-<p align="center">ë³¸ ë¬¸ì„œëŠ” VRR í”Œëž«í¼ì— ëŒ€í•œ ì‚¬ì—…ê³„íšì„œì— ëŒ€í•œ ë‚´ìš©ì„ ì„¤ëª…í•©ë‹ˆë‹¤.</p>
+#### <p align="center"><u>¸Ó¸®¸»</u></p>
+<p align="center">º» ¹®¼­´Â VRR ÇÃ·§Æû¿¡ ´ëÇÑ »ç¾÷°èÈ¹¼­¿¡ ´ëÇÑ ³»¿ëÀ» ¼³¸íÇÕ´Ï´Ù.</p>
 
-#### ðŸ“‚ Index
+#### ?? Index
 
-> ###### 1. ì„œë¹„ìŠ¤
->> ######   1-1 [ì„œë¹„ìŠ¤ ê°œìš”](#ì„œë¹„ìŠ¤-ê°œìš”)
->> ######   1-2 [ì„œë¹„ìŠ¤ ê¸°íš ë°°ê²½](#ì„œë¹„ìŠ¤-ê¸°íš-ë°°ê²½)
->> ######   1-3 [ì„œë¹„ìŠ¤ ì†Œê°œ](#ì„œë¹„ìŠ¤-ì†Œê°œ)
-> ###### 2. ê¸°ìˆ 
->>  ######  2-1 [ê¸°ìˆ  ì†Œê°œ](#ê¸°ìˆ -ì†Œê°œ)
-> ###### 3. ì‹œìž¥
->>  ######  3-1 [ì‹œìž¥ ë™í–¥](#ì‹œìž¥-ë™í–¥)
->>  ######  3-2 [ì‚¬ì—… êµ¬ì¡°](#ì‚¬ì—…-êµ¬ì¡°)
->>  ######  3-3 [ìˆ˜ìµ](#ìˆ˜ìµ)
-> ###### 4. ê³„íš
->>  ######  4-1 [í–¥í›„ ì¶”ì§„ ê³„íš](#í–¥í›„-ì¶”ì§„-ê³„íš)
->>  ######  4-2 [ì—…ë¬´ë¶„ë‹´](#ì—…ë¬´ë¶„ë‹´)
->>  ######  4-3 [ì£¼ì°¨ ë³„ ê°œë°œ ê³„íš](#ì£¼ì°¨-ë³„-ê°œë°œ-ê³„íš)
+> ###### 1. ¼­ºñ½º
+>> ######   1-1 [¼­ºñ½º °³¿ä](#¼­ºñ½º-°³¿ä)
+>> ######   1-2 [¼­ºñ½º ±âÈ¹ ¹è°æ](#¼­ºñ½º-±âÈ¹-¹è°æ)
+>> ######   1-3 [¼­ºñ½º ¼Ò°³](#¼­ºñ½º-¼Ò°³)
+> ###### 2. ±â¼ú
+>>  ######  2-1 [±â¼ú ¼Ò°³](#±â¼ú-¼Ò°³)
+> ###### 3. ½ÃÀå
+>>  ######  3-1 [½ÃÀå µ¿Çâ](#½ÃÀå-µ¿Çâ)
+>>  ######  3-2 [»ç¾÷ ±¸Á¶](#»ç¾÷-±¸Á¶)
+>>  ######  3-3 [¼öÀÍ](#¼öÀÍ)
+> ###### 4. °èÈ¹
+>>  ######  4-1 [ÇâÈÄ ÃßÁø °èÈ¹](#ÇâÈÄ-ÃßÁø-°èÈ¹)
+>>  ######  4-2 [¾÷¹«ºÐ´ã](#¾÷¹«ºÐ´ã)
+>>  ######  4-3 [ÁÖÂ÷ º° °³¹ß °èÈ¹](#ÁÖÂ÷-º°-°³¹ß-°èÈ¹)
+
+***
 
 ![img](/img/img1.PNG)
 
-#### ì„œë¹„ìŠ¤ ê°œìš”
+</br>
 
- - **VRRì´ëž€?**
+#### ¼­ºñ½º °³¿ä
+
+ - **VRRÀÌ¶õ?**
 
  ![img](/img/vrr.PNG)
 </br>
-    VRê³¼ Kinect ëª¨ì…˜ì¸ì‹ì„ í†µí•œ ë¹„íŠ¸ê²Œìž„ê³¼ Auto Beat Note Mapping ì„œë¹„ìŠ¤, ê³µìœ  í”Œëž«í¼ì„ ì›¹ìœ¼ë¡œ ì œê³µí•œë‹¤
+    VR°ú Kinect ¸ð¼ÇÀÎ½ÄÀ» ÅëÇÑ ºñÆ®°ÔÀÓ°ú Auto Beat Note Mapping ¼­ºñ½º, °øÀ¯ ÇÃ·§ÆûÀ» À¥À¸·Î Á¦°øÇÑ´Ù
 </br>
 </br>
 
-#### ì„œë¹„ìŠ¤ ê¸°íš ë°°ê²½
- - **ë¦¬ë“¬ ê²Œìž„ì„ 2ì¸ìš©ìœ¼ë¡œ ê²½ìŸí•˜ë©° ì¦ê¸¸ ìˆ˜ ëŠ” ì—†ì„ê¹Œ?**
+#### ¼­ºñ½º ±âÈ¹ ¹è°æ
+ - **¸®µë °ÔÀÓÀ» 2ÀÎ¿ëÀ¸·Î °æÀïÇÏ¸ç Áñ±æ ¼ö ´Â ¾øÀ»±î?**
 </br>
-    ë¦¬ë“¬ê²Œìž„ì€ 1ì¸ìš©ìœ¼ë¡œ ì§„í–‰ë˜ê±°ë‚˜ 2ì¸ìš©ì´ì§€ë§Œ ì ìˆ˜ë¥¼ ê²½ìŸí•˜ëŠ” í˜•íƒœìž…ë‹ˆë‹¤. ì €í¬ VRRíŒ€ì€ ë” ìž¬ë¯¸ìžˆëŠ” ê²½ìŸ êµ¬ë„ë¥¼ ë¦¬ë“¬ê²Œìž„ì— ì ìš©í•˜ë©´ ìž¬ë¯¸ìžˆì„ ê²ƒ ê°™ì•˜ìŠµë‹ˆë‹¤.    
-</br>
-</br>
-
- - **ë¦¬ë“¬ ê²Œìž„ì˜ ë…¸íŠ¸ ìƒì„± ë¹„íš¨ìœ¨ ê°œì„ í•  ë°©ë²•?**
-</br>
-    ì´ˆì°½ê¸°ë¶€í„° í˜„ìž¬ê¹Œì§€ ê¾¸ì¤€ížˆ ì¸ê¸°ë¥¼ ëŒê³  ìžˆëŠ” ë¦¬ë“¬ê²Œìž„ì€ Playí•˜ê¸° ìœ„í•´ì„œ Noteê°€ ê¼­ í•„ìš”í•©ë‹ˆë‹¤. í•˜ì§€ë§Œ ì´ë¥¼ ì—¬ì „ížˆ ì´ Noteìƒì„±ì„ ì‚¬ëžŒì´ ì§ì ‘ ìˆ˜ë™ìœ¼ë¡œ ë§Œë“ ë‹¤ëŠ” ë¹„íš¨ìœ¨ì„ ê°œì„ í•  ë°©ë²•ì´ ìžˆì„ì§€ ê³ ë¯¼í–ˆìŠµë‹ˆë‹¤.
+    ¸®µë°ÔÀÓÀº 1ÀÎ¿ëÀ¸·Î ÁøÇàµÇ°Å³ª 2ÀÎ¿ëÀÌÁö¸¸ Á¡¼ö¸¦ °æÀïÇÏ´Â ÇüÅÂÀÔ´Ï´Ù. ÀúÈñ VRRÆÀÀº ´õ Àç¹ÌÀÖ´Â °æÀï ±¸µµ¸¦ ¸®µë°ÔÀÓ¿¡ Àû¿ëÇÏ¸é Àç¹ÌÀÖÀ» °Í °°¾Ò½À´Ï´Ù.    
 </br>
 </br>
 
-#### ì„œë¹„ìŠ¤ ì†Œê°œ
- -  **:mag: ì›¹ í”Œëž«í¼**
+ - **¸®µë °ÔÀÓÀÇ ³ëÆ® »ý¼º ºñÈ¿À² °³¼±ÇÒ ¹æ¹ý?**
+</br>
+    ÃÊÃ¢±âºÎÅÍ ÇöÀç±îÁö ²ÙÁØÈ÷ ÀÎ±â¸¦ ²ø°í ÀÖ´Â ¸®µë°ÔÀÓÀº PlayÇÏ±â À§ÇØ¼­ Note°¡ ²À ÇÊ¿äÇÕ´Ï´Ù. ÇÏÁö¸¸ ÀÌ¸¦ ¿©ÀüÈ÷ ÀÌ Note»ý¼ºÀ» »ç¶÷ÀÌ Á÷Á¢ ¼öµ¿À¸·Î ¸¸µç´Ù´Â ºñÈ¿À²À» °³¼±ÇÒ ¹æ¹ýÀÌ ÀÖÀ»Áö °í¹ÎÇß½À´Ï´Ù.
+</br>
+</br>
+
+***
+
+#### ¼­ºñ½º ¼Ò°³
+ -  **:mag: À¥ ÇÃ·§Æû**
 
  ![img](/img/platform.PNG)
  </br>
-    ê³ ê°ë“¤ì€ kitì— ëŒ€í•œ ê³ ìœ  ê³ ìœ ì˜ license ë²ˆí˜¸ë¥¼ ë°›ê²Œ ë˜ë©° ì›¹ í”Œëž«í¼ì— Loginí•˜ì—¬ VRR Play ê¸°ë¡ê³¼ ê³ ê°ì´ ìƒì„±í•˜ì—¬ ì €ìž¥ëœ ìžì‹ ë§Œì˜ Beat Noteë¥¼ í™•ì¸í•  ìˆ˜ ìžˆë‹¤    
+    °í°´µéÀº kit¿¡ ´ëÇÑ °íÀ¯ °íÀ¯ÀÇ license ¹øÈ£¸¦ ¹Þ°Ô µÇ¸ç À¥ ÇÃ·§Æû¿¡ LoginÇÏ¿© VRR Play ±â·Ï°ú °í°´ÀÌ »ý¼ºÇÏ¿© ÀúÀåµÈ ÀÚ½Å¸¸ÀÇ Beat Note¸¦ È®ÀÎÇÒ ¼ö ÀÖ´Ù    
 </br>
 
- -   **:video_game: VR ë¦¬ë“¬ì„¸ìž„**
+ -   **:video_game: VR ¸®µë°ÔÀÓ**
 
  ![img](/img/unity.PNG)
  </br>
- VR ê¸°ê¸°ë¥¼ ì°©ìš©í•˜ê³  Kinectë¡œ ì¸ì‹ëœ Playerê°€ Unity UIë¥¼ í†µí•´ ë¡œê·¸ì¸í•˜ê³  Playí•˜ê³  ì‹¶ì€ ê³¡ì„ ì„ íƒ í›„ VR ë¦¬ë“¬ê²Œìž„ì„ ì¦ê¸´ë‹¤    
+ VR ±â±â¸¦ Âø¿ëÇÏ°í Kinect·Î ÀÎ½ÄµÈ Player°¡ Unity UI¸¦ ÅëÇØ ·Î±×ÀÎÇÏ°í PlayÇÏ°í ½ÍÀº °îÀ» ¼±ÅÃ ÈÄ VR ¸®µë°ÔÀÓÀ» Áñ±ä´Ù    
 </br>
 
   -   **:musical_score: Auto Beat Node Mapping**
 
   ![img](/img/deeplearning.PNG)
   </br>
-  ìžì‹ ì´ Play í•˜ê³  ì‹¶ì€ ê³¡ì´ ì—†ìœ¼ë©´ Auto Beat Note Making ê¸°ëŠ¥ì„ ì´ìš©í•´ ìŒì›ì„ ì§‘ì–´ë„£ì–´ ìžë™ìœ¼ë¡œ ìƒì„±ëœ Noteë¥¼ ì›¹ í”Œëž«í¼ì— ì €ìž¥í•˜ê³ ì§ì ‘ Playí•˜ê±°ë‚˜ ë‹¤ë¥¸ Playerì™€ ê³µìœ í•  ìˆ˜ ìžˆë‹¤.
+  ÀÚ½ÅÀÌ Play ÇÏ°í ½ÍÀº °îÀÌ ¾øÀ¸¸é Auto Beat Note Making ±â´ÉÀ» ÀÌ¿ëÇØ À½¿øÀ» Áý¾î³Ö¾î ÀÚµ¿À¸·Î »ý¼ºµÈ Note¸¦ À¥ ÇÃ·§Æû¿¡ ÀúÀåÇÏ°í Á÷Á¢ PlayÇÏ°Å³ª ´Ù¸¥ Player¿Í °øÀ¯ÇÒ ¼ö ÀÖ´Ù.
 </br>
 
-  -  **êµ¬ì„±ë„**
+  -  **±¸¼ºµµ**
 
 ![img](/img/architecture.PNG)
 </br>
 </br>
 
-#### ê¸°ìˆ  ì†Œê°œ
-</br>
+***
 
-#### ì‹œìž¥ ë™í–¥
-</br>
+#### ±â¼ú ¼Ò°³
+##### VR
+<img width="150" height="150">![img](/img/technology01.PNG)</img>
+* Virtual RealityÀÇ ¾àÀÚ·Î '°¡»óÇö½Ç'ÀÌ¶ó´Â ¶æ
+* ¸¸µé¾î ³õÀº °¡»óÀÇ ¼¼°è¿¡¼­ »ç¶÷ÀÌ ½ÇÁ¦¿Í °°Àº Ã¼ÇèÀ» ÇÒ ¼ö ÀÖµµ·Ï ÇÏ´Â ±â¼ú
+* ³ôÀº ¸ôÀÔ°¨À¸·Î °ÔÀÓ°ú °°Àº ¿£ÅÍÅ×ÀÎ¸ÕÆ® ºÐ¾ß°¡ °¡Àå ¹ßÀüÇØ ÀÖ´Ù.
+>VRÀº »ç¿ëÀÚÀÇ ½Ã¾ß¿¡ ²Ë Âù display¸¦ Á¦°øÇØ ´õ¿í ³ôÀº ÇöÀå°¨°ú ¸ôÀÔ°¨À» ÁÙ ¼ö ÀÖ´Ù
 
+</br>
+##### Kinect
+<img width="150" height="150">![img](/img/technology02.PNG)</img>
+* RGB¼¾¼­¿Í IR¼¾¼­¸¦ ÀÌ¿ëÇÑ 3Â÷¿ø 
+* ÀÎ½Ä ÀÎÃ¼ÀÇ ÁÖ¿ä °ñ°Ý À§Ä¡ µ¥ÀÌÅÍ Á¦°ø
+* ³»Àå ¸¶ÀÌÅ©·Î À½¼º ÀÎ½Ä
+> Kinect´Â ÀÎÃ¼ÀÇ 25°³ÀÇ ÁÖ¿ä °ñ°Ý À§Ä¡¸¦ ÀÎ½ÄÇÏ¿©, ÀÎ½ÄµÈ °ñ°Ý À§Ä¡ µ¥ÀÌÅÍ¸¦ Á¦°ø ÇØÁÖ±â ¶§¹®¿¡ »ç¶÷ÀÇ ÀüÃ¼ÀûÀÎ Çàµ¿ ¹× ¿òÁ÷ÀÓÀ» ¾Ë ¼ö ÀÖ´Ù.     
+_**Gesture recognition**_ : »ç¶÷ ¸öÀÇ ¿òÁ÷ÀÓÀ» ÀÎ½ÄÇØ ±â°è¿Í »óÈ£ÀÛ¿ë
+
+</br>
+##### VRR : Kinect & VR ±â¼ú °áÇÕ
+![img](/img/unity+kinect.gif)
+<img width="350" height="150">![img](/img/technology03.PNG)</img>
+> ¸®µë°ÔÀÓÀ» ´õ¿í Àç¹ÌÀÖ°Ô Play ÇÏ±âÀ§ÇØ ÁÖ±âÀûÀ¸·Î º®À» »ý¼ºÇØ Kinect¸¦ ÅëÇÑ Gesture recognition ±â´ÉÀ¸·Î º®À» ÇÇÇÏ´Â °ÔÀÓÀû ¿ä¼Ò¸¦ Ãß°¡ÇÏ¿´´Ù.
+
+</br>
+##### Deep learning
+![img](/img/technology04.PNG)
+</br>
+* ÁöµµÇÐ½ÀÀº Á¤´äÀÌ ÁÖ¾îÁø »óÅÂ¿¡¼­ ÇÐ½ÀÇÏ´Â ¾Ë°í¸®ÁòÀ» ÀÇ¹Ì
+* ÀÔ·Â °ª°ú Á¤´äÀ» Æ÷ÇÔÇÑ Training Data¸¦ ÀÌ¿ëÇÏ¿© ÇÐ½À
+* ±× ÇÐ½ÀµÈ °á°ú¸¦ ¹ÙÅÁÀ¸·Î ¹ÌÁöÀÇ µ¥ÀÌÅÍ¿¡ ´ëÇØ ¹Ì·¡ °ªÀ» ¿¹ÃøÇÏ´Â ¹æ¹ý
+> VRRÀº Note¸¦ »ý¼ºÇÏ´Â °úÁ¤¿¡ ÇÊ¿äÇÑ Data¸¦ ÀüÃ³¸®ÇÑ ÈÄ ModelÀÌ ÇÐ½ÀÇÏ¿© »õ·Î¿î Beat Note¸¦ ÀÚµ¿À¸·Î Á¦ÀÛÇÒ ¼ö ÀÖ´Ù.
+
+***
+
+#### ½ÃÀå µ¿Çâ
+</br>
 ![img](/img/marketTrends2.PNG)
 ```bash
-| [ì‹œìž¥ë™í–¥ ìžë£Œ 1] TrendForce  
+| [½ÃÀåµ¿Çâ ÀÚ·á 1] TrendForce  
 ```
 ```bash
-| ì£¼ : 2020ë…„ ì‹œìž¥ì „ë§ì„ ê¸°ì¤€ìœ¼ë¡œ ìž‘ì„±
-| [ì‹œìž¥ë™í–¥ ìžë£Œ 2] Digi-capital, NHíˆ¬ìžì¦ê¶Œ WMë¦¬ì„œì¹˜ë¶€
+| [½ÃÀåµ¿Çâ ÀÚ·á 2] Digi-capital, NHÅõÀÚÁõ±Ç WM¸®¼­Ä¡ºÎ
 ```
+###### VR±â±â°¡ º¸±ÞµÇ¸é¼­ ÄÜÅÙÃ÷ ¼ºÀåµµ ´õ¿í »¡¶óÁú Àü¸ÁÀÌ¸ç, 2020³â?VR?ÄÜÅÙÃ÷ ½ÃÀåÀÇ Àý¹Ý ÀÌ»óÀ»?VR?°ÔÀÓÀÌ Â÷ÁöÇÒ °ÍÀ¸·Î Àü¸ÁÇÏ°í ÀÖ¾î?ÇöÀç ¸¹Àº °ÔÀÓ¾÷Ã¼µéÀÌ?VR?°ÔÀÓÀ» °³¹ß Áß¿¡ ÀÖÀ¸¸ç, VR?°ÔÀÓÀ» °³¹ßÇÏ´Â ¾÷Ã¼µéµµ Áö¼ÓÀûÀ¸·Î Áõ°¡ÇÒ °ÍÀ¸·Î Àü¸Á
+</br>
 
 ![img](/img/marketTrends3.PNG)
 ```bash
-| [ì‹œìž¥ë™í–¥ ìžë£Œ 3] ì¸ì‚¬ì´í„°ìŠ¤ (VR ê¸°ìˆ  ì‘ìš© ì‚°ì—…)  
+| [½ÃÀåµ¿Çâ ÀÚ·á 3] ÀÎ»çÀÌÅÍ½º (VR ±â¼ú ÀÀ¿ë »ê¾÷)  
 ```
+###### VR ±â¼úÀº ¸ôÀÔ°¨À» ³ô¿©ÁÙ ¼ö ÀÖ´Â ¸ðµç ºÐ¾ß¿¡ ÀÀ¿ë °¡´ÉÇÏ¸ç, ÇöÀç °ÔÀÓ½ÃÀå¿¡¼­ °¡Àå È°¹ßÈ÷ È®ÀåµÇ°í ÀÖ´Ù. Å©°Ô °ÔÀÓ, ±³À°, ÀÇ·á, ¿µ»ó, ¹æ¼Û/±¤°í, Á¦Á¶/»ê¾÷ ºÐ¾ß¿¡ Àû¿ëµÇ¸ç ¼¼ºÎ ºÐ¾ß´Â ¾Æ·¡¿Í °°´Ù.
+</br>
+
 ![img](/img/marketTrends4.PNG)
 ```bash
-| [ì‹œìž¥ë™í–¥ ìžë£Œ 4] NHíˆ¬ìžì¦ê¶Œ WMë¦¬ì„œì¹˜ë¶€
+| [½ÃÀåµ¿Çâ ÀÚ·á 4] NHÅõÀÚÁõ±Ç WM¸®¼­Ä¡ºÎ
 ```
 ![img](/img/marketTrends5.PNG)
 ```bash
-| [ì‹œìž¥ë™í–¥ ìžë£Œ 5] ì¸ì‚¬ì´í„°ìŠ¤, VRR ê°€ê³µ (VR ì„ ë„ ê¸°ì—… í˜„í™©)
+| [½ÃÀåµ¿Çâ ÀÚ·á 5] ÀÎ»çÀÌÅÍ½º, VRR °¡°ø (VR ¼±µµ ±â¾÷ ÇöÈ²)
 ```
-![img](/img/marketTrends.PNG)
-```bash
-| [ì‹œìž¥ë™í–¥ ìžë£Œ 6] ì •ë³´í†µì‹ ì •ì±… ì—°êµ¬ì›, VRR ê°€ê³µ (VR ìƒíƒœê³„ í˜„í™©)
-```
+###### ´ë±â¾÷µéµµ »ó±â Ç¥¿Í ±¹³» ¼±µµ ±â¾÷µéÀº ¾ÆÁ÷ ÀÌÀÍÀÌ ¹ß»ýÇÏÁö ¾ÊÀº ÃÊ±â ½ºÅ¸Æ®¾÷µéÀ» ´ë»óÀ¸·Î È°¹ßÇÑ ÀÎ¼öÇÕº´(M&A)À» ÁøÇàÇÏ¿© VR »ê¾÷À¸·Î ¶Ù¾îµé°í ÀÖÀ¸¸ç, ¾Õ ´ÙÅõ¾î ±â¼ú °³¹ß°ú ½ÅÁ¦Ç° Ãâ½Ã¿¡ ¹ÚÂ÷¸¦ °¡ÇÏ°í ÀÖ´Ù.
 </br>
 
-#### ì‚¬ì—… êµ¬ì¡°
+***
+
+#### »ç¾÷ ±¸Á¶
 </br>
 
 ![img](/img/businessModel.PNG)
 </br>
 
-#### ìˆ˜ìµ
+#### ¼öÀÍ
 </br>
+
+***
 
 ![img](/img/profit.PNG)
 </br>
 
-#### í–¥í›„ ì¶”ì§„ ê³„íš
+#### ÇâÈÄ ÃßÁø °èÈ¹
 </br>
 
 ![img](/img/plan.PNG)
 ![img](/img/plan2.PNG)
 
-### <p align="center">ê°•í™”í•™ìŠµ</p>
-![img](/img/plan3.PNG)
 </br>
 
-#### ì—…ë¬´ë¶„ë‹´
+#### ¾÷¹«ºÐ´ã
 </br>
 
 ![img](/img/role.PNG)
 </br>
 
-#### ì£¼ì°¨ ë³„ ê°œë°œ ê³„íš
+#### ÁÖÂ÷ º° °³¹ß °èÈ¹
 </br>
 
 ![img](/img/devplan.PNG)
