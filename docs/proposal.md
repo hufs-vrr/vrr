@@ -8,8 +8,8 @@
 
 ### <p align="center">VR Rhythm Game Beat Maker Using Deep Learning</p><p align="center"><span style="color:#0064FF">VRR</span></p>    
 
-#### <p align="center">Ver. 1.0</p>
-#### <p align="center">2019.10.01</p>    
+#### <p align="center">Ver. 1.1</p>
+#### <p align="center">2019.10.08</p>    
 #### <p align="center">한국외국어대학교</p>
 #### <p align="center">정보통신공학과</p>
 #### <p align="center">VRR Team</p>
@@ -139,10 +139,18 @@ _**Gesture recognition**_ : 사람 몸의 움직임을 인식해 기계와 상�
 | [시장동향 자료 2] Digi-capital, NH투자증권 WM리서치부
 ```
 
+###### VR기기가 보급되면서 콘텐츠 성장도 더욱 빨라질 전망이며, 2020년 VR 콘텐츠 시장의 절반 이상을 VR 게임이 차지할 것으로 전망하고 있어 현재 많은 게임업체들이 VR 게임을 개발 중에 있으며, VR 게임을 개발하는 업체들도 지속적으로 증가할 것으로 전망
+
+</br>
+
 ![img](/img/marketTrends3.PNG)
 ```bash
 | [시장동향 자료 3] 인사이터스 (VR 기술 응용 산업)  
 ```
+
+###### VR 기술은 몰입감을 높여줄 수 있는 모든 분야에 응용 가능하며, 현재 게임시장에서 가장 활발히 확장되고 있다. 크게 게임, 교육, 의료, 영상, 방송/광고, 제조/산업 분야에 적용되며 세부 분야는 위와 같다.
+</br>
+
 ![img](/img/marketTrends4.PNG)
 ```bash
 | [시장동향 자료 4] NH투자증권 WM리서치부
@@ -151,10 +159,9 @@ _**Gesture recognition**_ : 사람 몸의 움직임을 인식해 기계와 상�
 ```bash
 | [시장동향 자료 5] 인사이터스, VRR 가공 (VR 선도 기업 현황)
 ```
-![img](/img/marketTrends.PNG)
-```bash
-| [시장동향 자료 6] 정보통신정책 연구원, VRR 가공 (VR 생태계 현황)
-```
+
+###### 대기업들도 상기 표와 국내 선도 기업들은 아직 이익이 발생하지 않은 초기 스타트업들을 대상으로 활발한 인수합병(M&A)을 진행하여 VR 산업으로 뛰어들고 있으며, 앞 다투어 기술 개발과 신제품 출시에 박차를 가하고 있다.
+
 </br>
 
 #### 사업 구조
