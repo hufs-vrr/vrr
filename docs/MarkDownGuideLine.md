@@ -1,7 +1,7 @@
 ## <span style="color:purple">MarkDown</span> 문법 가이드 라인 
 - - -
 > <strong> About word </strong>
-- [글자크기](#글자크기)
+-  [글자크기](#글자크기)
 - [글자특성](#글자특성)
 - [글자색상](#글자색상)
 - [띄어쓰기](#띄어쓰기)
@@ -15,6 +15,11 @@
 - [제목](#제목)
 - [Badge](#뱃지)
 - [이모티콘](#이모티콘)
+> <strong>참고문서</strong>
+
+https://github.github.com/gfm/
+http://www.hakawati.co.kr/405
+
 > Last edited by Hochan ( 2019.10.02 )
 
 `` *변경 사항 적용 후에 위에 이름과 날짜 갱신해 주세요! ``
