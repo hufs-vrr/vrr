@@ -1,0 +1,83 @@
+type User {
+  id: ID! @id
+  avatar: String
+    @default (
+      value: "https://icon-library.net/images/default-user-icon/default-user-icon-4.jpg"
+    )
+  username: String! @unique
+  email: String! @unique
+  firstName: String! @default(value:"")
+  lastName: String
+  bio: String
+  followers: [User!]! @relation(name: "FollowRelation")
+  following: [User!]! @relation(name: "FollowRelation")
+  posts: [Post!]! @relation(name: "PostOfUser", onDelete:CASCADE)
+  likes: [Like!]! @relation(name: "LikeOfUser", onDelete:CASCADE)
+  comments: [Comment!]! @relation(name: "CommentsOfUser", onDelete:CASCADE)
+  rooms: [Room!]! 
+  loginSecret: String
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Post {
+  id: ID! @id
+  location: String
+  caption: String!
+  user: User! @relation(name: "PostOfUser")
+  files: [File!]! @relation(name: "FileOfPost", onDelete: CASCADE)
+  likes: [Like!]! @relation(name: "LikeOfPost", onDelete: CASCADE)
+  comments: [Comment!]! @relation(name: "CommentsOfPost", onDelete: CASCADE)
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Like {
+  id: ID! @id
+  user: User @relation(name: "LikeOfUser")
+  post: Post @relation(name: "LikeOfPost")
+}
+
+type Comment {
+  id: ID! @id
+  text: String!
+  user: User @relation(name: "CommentsOfUser")
+  post: Post @relation(name: "CommentsOfPost")
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type File {
+  id: ID! @id
+  url: String!
+  post: Post @relation(name:"FileOfPost")
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Room {
+  id: ID! @id
+  participants: [User!]!
+  messages: [Message!]!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type Message {
+  id: ID! @id
+  text: String!
+  from: User! @relation(name: "From")
+  to: User! @relation(name: "To")
+  room: Room!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
+
+type FileUpload {
+  id: ID! @id
+  path: String!
+  filename: String!
+  mimetype: String!
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}
