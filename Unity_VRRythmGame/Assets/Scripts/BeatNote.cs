@@ -18,6 +18,7 @@ public class BeatNote : MonoBehaviour
             this.gameObject.GetComponent<Rigidbody>().AddForce(new Vector3(0,0,-10), ForceMode.Impulse);    // 충돌후 충돌 반대방향으로 팅겨남
             this.gameObject.GetComponent<Collider>().enabled = !this.gameObject.GetComponent<Collider>().enabled;   // 충돌후 충돌component 제거
             iscollision = false;    // 충돌 상태 종료
+            Destroy(this.gameObject, 1.0f);
         }
     }
 
@@ -46,5 +47,23 @@ public class BeatNote : MonoBehaviour
                 n.transform.Translate(0, 0, 500*Time.deltaTime);
             }
         }
+    }
+
+    public static void move(GameObject n,float speed)
+    {
+        if (n.transform.position.z > -20)
+        {
+            if (iscollision == false)       // 충돌상태 아닐 경우만 발생
+                n.transform.Translate(0, 0, speed*Time.deltaTime);
+        }
+        else if (n.transform.position.z <= -20)
+        {
+            n.transform.Translate(0, 0, 500*Time.deltaTime);
+        }
+    }
+
+    void Update()
+    {
+        move(this.gameObject, Main.speed);
     }
 }

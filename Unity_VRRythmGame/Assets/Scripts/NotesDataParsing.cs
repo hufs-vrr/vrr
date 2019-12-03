@@ -39,6 +39,27 @@ public class NotesDataParsing
         return data;
     }
 
+    public static List<BeatNoteClass> parse_data2(JObject jdata)
+    {
+        List<BeatNoteClass> data = new List<BeatNoteClass>();
+        
+
+        JArray notes_data = JArray.Parse(jdata["_notes"].ToString());
+
+        foreach(JObject e in notes_data)
+        {
+            BeatNoteClass temp = new BeatNoteClass();
+            temp._time = float.Parse(e["_time"].ToString());
+            temp._lineIndex = int.Parse(e["_lineIndex"].ToString());
+            temp._lineLayer = int.Parse(e["_lineLayer"].ToString());
+            temp._type = int.Parse(e["_type"].ToString());
+            temp._cutDirection = int.Parse(e["_cutDirection"].ToString());
+            data.Add(temp);
+        }
+
+        return data;
+    }
+
     // 여기하는중
     public static List<BeatNoteClass> sortingMap(List<BeatNoteClass> d)
     {
