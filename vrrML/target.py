@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-class target:
+class Target:
     def __init__(self,note):
         self.note = note
         
