@@ -9,7 +9,7 @@ import librosa.display
 import numpy as np
 import matplotlib.pyplot as plt
 
-class preprocess:
+class Preprocess:
     def __init__(self, music):
         self.music = music
         
