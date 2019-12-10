@@ -11,6 +11,7 @@ namespace Mirror
         {
             if(isLocalPlayer)
             {
+<<<<<<< HEAD
 
                 Camera.main.transform.parent = findHead().transform;
                 // Camera.main.transform.rotation = Quaternion.Euler(0,0,0);
@@ -25,6 +26,17 @@ namespace Mirror
         void Update()
         {
             // Camera.main.GetComponent<Transform>().position = findHead().transform.position;
+=======
+                Camera.main.transform.position = this.transform.position + new Vector3(0,2.7f,0.1f);
+                Camera.main.transform.parent = this.transform;
+            }
+        }
+
+        // Update is called once per frame
+        void Update()
+        {
+            
+>>>>>>> d1c3607ca05652511b7e7be9e9e7866d773bd161
         }
     }
 }

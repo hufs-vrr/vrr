@@ -51,11 +51,16 @@ public class BeatNote : MonoBehaviour
 
     public static void move(GameObject n,float speed)
     {
+<<<<<<< HEAD
         if (n.transform.position.z >= -20)
+=======
+        if (n.transform.position.z > -20)
+>>>>>>> d1c3607ca05652511b7e7be9e9e7866d773bd161
         {
             if (iscollision == false)       // 충돌상태 아닐 경우만 발생
                 n.transform.Translate(0, 0, speed*Time.deltaTime);
         }
+<<<<<<< HEAD
         else if (n.transform.position.z < -20)
         {
             n.transform.Translate(0, 0, 950*Time.deltaTime);
@@ -75,5 +80,16 @@ public class BeatNote : MonoBehaviour
     {
         move(this.gameObject, Main.speed);
         destroynote(this.gameObject);
+=======
+        else if (n.transform.position.z <= -20)
+        {
+            n.transform.Translate(0, 0, 500*Time.deltaTime);
+        }
+    }
+
+    void Update()
+    {
+        move(this.gameObject, Main.speed);
+>>>>>>> d1c3607ca05652511b7e7be9e9e7866d773bd161
     }
 }
