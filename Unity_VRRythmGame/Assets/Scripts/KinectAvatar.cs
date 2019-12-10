@@ -33,6 +33,11 @@ public class KinectAvatar : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+        GameObject t = GameObject.Find("BodySourceManager");
+        BodySourceManager temp = t.GetComponent<BodySourceManager>();
+        // BodySourceManager temp = .GetComponent<BodySourceManager>;
+        _BodyManager = temp;
+
         Ref = _UnityChan.transform.Find( "Character1_Reference" ).gameObject;
 
         Hips = Ref.gameObject.transform.Find( "Character1_Hips" ).gameObject;
@@ -153,6 +158,6 @@ public class KinectAvatar : MonoBehaviour {
         Ref.transform.rotation = q;
 
         var pos = body.Joints[JointType.SpineMid].Position;
-        Ref.transform.position = new Vector3( -pos.X, pos.Y, -pos.Z );
+        Ref.transform.position = this.gameObject.transform.position + new Vector3( -pos.X, pos.Y, -pos.Z );
     }
 }
