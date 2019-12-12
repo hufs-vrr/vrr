@@ -41,7 +41,7 @@ export default () => (
             <ListItem><Link href="#">언어</Link></ListItem>
         </List>
         <Copyright>
-            AR-Conference {new Date().getFullYear()} &copy;
+            VRR {new Date().getFullYear()} &copy;
         </Copyright>
     </Footer>
 )
