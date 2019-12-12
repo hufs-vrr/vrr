@@ -85,7 +85,7 @@ class Preprocess:
 
     def stft(self, music, n_fft_size):
         self.music = music
-        samples, sample_rate = librosa.load(path= music, sr = 44100, mono = True, duration = 40) #40
+        samples, sample_rate = librosa.load(path= music, sr = 44100, mono = True, duration = 160) #40
         D = np.abs(librosa.stft(samples, n_fft=n_fft_size,  hop_length=160))
         return D
 
@@ -124,7 +124,7 @@ class Preprocess:
         new_T = np.vstack(([T],[tmp]))
 
         for i in range(1,int(len(melscale_data[0]))):
-            if i%16 ==0: #default16 #80_32, 160_64
+            if i%64 ==0: #default16 #80_32, 160_64
                 channel_one = [melscale_data[0][i]]
                 channel_two = [melscale_data[1][i]]
                 channel_three = [melscale_data[2][i]]
