@@ -11,6 +11,19 @@
 > 정보통신기초종합설계 Team Project    
 
 
-![img](/img/img1.PNG)
+## ✨ VRR    
+![img](/img/img1.PNG)    
 
-[사업 계획서](https://github.com/hufs-vrr/vrr/blob/master/docs/proposal.md)
+## 📖 Introduction    
+![img](/img/Intro.JPG)
+
+## 📂 Architecture    
+![img](/img/architecture.PNG)        
+
+[사업계획서](https://github.com/hufs-vrr/vrr/tree/master/docs/01-proposal/VRR_Proposal.pdf)     
+
+[요구사항설계](https://github.com/hufs-vrr/vrr/tree/master/docs/02-requirement/VRR_Requirement.ver1.1.pdf)     
+
+[상세설계](https://github.com/hufs-vrr/vrr/tree/master/docs/03-detailed_design/VRR_Detailed_design.ver1.1.pdf)     
+
+[최종보고서](https://github.com/hufs-vrr/vrr/tree/master/docs/04-fianl/VRR_final.pdf)     
