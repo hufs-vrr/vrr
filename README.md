@@ -26,4 +26,4 @@
 
 [상세설계](https://github.com/hufs-vrr/vrr/tree/master/docs/03-detailed_design/VRR_Detailed_design.ver1.1.pdf)     
 
-[최종보고서](https://github.com/hufs-vrr/vrr/tree/master/docs/04-fianl/VRR_final.pdf)     
+[최종보고서](https://github.com/hufs-vrr/vrr/blob/master/docs/04-final/VRR_final.pdf)     
