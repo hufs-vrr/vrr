@@ -20,6 +20,10 @@
 ## 📂 Architecture    
 ![img](/img/architecture.PNG)        
 
+## 👨‍ testing
+![img](/img/GroupPhoto.jpg)        
+
+
 [사업계획서](https://github.com/hufs-vrr/vrr/tree/master/docs/01-proposal/VRR_Proposal.pdf)     
 
 [요구사항설계](https://github.com/hufs-vrr/vrr/tree/master/docs/02-requirement/VRR_Requirement.ver1.1.pdf)     
